@@ -6,6 +6,13 @@
         <title>404 - Страница не найдена - Теплосток</title>
         <!-- Mobile Specific Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <script>
+            if (location.protocol !== 'https:') {
+                location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+            }
+        </script>
+
         <!-- Custom Fonts -->
         <link rel="stylesheet" href="custom-font/fonts.css" />
         <!-- Bootstrap -->
@@ -72,11 +79,11 @@
                     <!-- Navigation -->
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav menu">
-                            <li><a href="#about">О нас</a></li>
+                            <li><a href="https://teplo-stok.ru/#about">О нас</a></li>
                             <!-- <li><a href="#why_us">Наши услуги</a></li>-->
-                            <li><a href="#services">Как мы работаем</a></li>
-                            <li><a href="#req">Реквизиты</a></li>
-                            <li><a href="#contact">Контакты</a></li>
+                            <li><a href="https://teplo-stok.ru/#services">Как мы работаем</a></li>
+                            <li><a href="https://teplo-stok.ru/#req">Реквизиты</a></li>
+                            <li><a href="https://teplo-stok.ru/#contact">Контакты</a></li>
                         </ul>
                     </div>
                 </div>
