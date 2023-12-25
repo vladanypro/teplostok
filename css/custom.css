@@ -263,7 +263,9 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     border:1px solid #ffcb0f;
 }
 
-
+.btn_tariff {
+    margin: 10px;
+}
 
 
 .carousel-control{
@@ -364,6 +366,10 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 .table-container {
     -ms-overflow-x: auto;
     overflow-x: auto;
+}
+
+.text-center {
+    text-align: center !important;
 }
 
 /* req */
